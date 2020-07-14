@@ -32,7 +32,7 @@ ___Citation:___
 Source of data of airbnb in Tokyo, Kantō, Japan, can be found on the InsideAirbnb site, [here](http://insideairbnb.com/get-the-data.html). 
 It is sourced from publicly from the Airbnb site.
 
-Within the country dataset there are: 
+Within the country dataset some of the variables are: 
 
 - `calendar`: Provide detail about booking for the next year, containing 7 attributes:
     - `date` (datetime)
@@ -47,14 +47,16 @@ Within the country dataset there are:
     - `price` (continous)
     - `property_type`(categorical)
     - `room_type`(categorical)
-    - (TBC)
+    - `neighbourhood_cleansed`(categorical)
+    - `amenities`()
+    - `review_scores`(discrete)
 
 
 - `reviews`: Detailed reviews given by guests, containing 6 attributes
     - `listing_id` (discrete)
     - `date` (datetime)
     - `comment`
-    - (TBC)
 
 
 - `neighbourhood`: Neighbourhood list for geo filter. Sourced from city or open source GIS files.
+
