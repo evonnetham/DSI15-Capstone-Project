@@ -7,11 +7,30 @@ _Author: Evonne Tham_
 
 ### Introduction
 
+### Introduction
+
 Airbnb is a online marketplace company that offers arrangement for lodging, homestays, or tourism experiences. It has become the world’s largest marketplaces with many travelers from all around the world, using it for the unique and authentic experience. As of 2020, Airbnb has over 7 million listings across the world, all powered by local hosts.
 
-By sharing with travelers, this provides opportunity for homeowners to make more income from their homes. However with the constant increase of listings prices, hosts or even property managers are now face with a lot more competitors. Hence, getting the right listing price is crucial. If listing price is set too low, you will be missing out on a lot of potential income, and if listing price is set a tad bit higher you might lose a booking to other competitors. Although there are third party pricing tools that are available to help price these properties, these tools can get quite pricey especially for people who are just starting out.
+By sharing with travelers, this provides opportunity for homeowners to make more income from their homes. However with the constant increase of listings prices, hosts or even property managers are now face with a lot more competitors. Hence, getting the right listing price is crucial. If listing price is set too low, you will be missing out on a lot of potential income, and if listing price is set a tad bit higher you might lose a booking to other competitors. 
+
+<br>
+<br>
+
+![title](./image/airbnb_site.png)
+
+<br>
+<br>
+
+
+Although there are third party pricing tools that are available to help price these properties, these tools can get quite pricey especially for people who are just starting out.
 
 In order to solve this problem, I will be looking into the data from Toyko, one of the top most popular cities for Airbnb booking experiences. I will build a regression model to predict the best price of the listing in Toyko with respect to featurees such as the property or room type, location, etc. Model performance will be guided by R-Square and RMSE, and the model should at least improve upon baseline by 10%. Baseline is defined as the mean of the listing price.
+
+
+___Citation:___
+- https://news.airbnb.com/about-us/
+- https://news.airbnb.com/fast-facts/
+- https://ipropertymanagement.com/research/airbnb-statistics
 
 
 ___Citation:___
