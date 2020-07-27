@@ -5,7 +5,6 @@ _Author: Evonne Tham_
 ---
 ![](https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iKAhd1KFQDfw/v0/-1x-1.jpg)
 
-### Introduction
 
 ### Introduction
 
@@ -41,12 +40,14 @@ ___Citation:___
 
 
 
+---
 ### Risks & Assumptions
 
 - The data is not tempered and it accurate in producing a non-commercial derivation to allow public analysis, discussion and community benefit. 
 - Some reviews may be "spam" allowed by Airbnb. Analysis suggests that spam reviews are small and do not affect the statistics.
 - The Airbnb calendar for a listing does not differentiate between a booked night vs an unavailable night, therefore these bookings have been counted as "unavailable". This serves to understate the Availability metric because popular listings will be "booked" rather than being "blacked out" by a host.
 
+---
 ### Data Source
 
 Source of data of airbnb in Tokyo, Kantō, Japan, can be found on the InsideAirbnb site, [here](http://insideairbnb.com/get-the-data.html). 
@@ -80,3 +81,10 @@ Within the country dataset some of the variables are:
 
 - `neighbourhood`: Neighbourhood list for geo filter. Sourced from city or open source GIS files.
 
+---
+### Content
+- [Initial Exploratory Data Analysis and Cleaning](./01_Data_Cleaning_and_EDA.ipynb)
+- [Full Exploratory Data Analysis](./02_Full_EDA.ipynb)
+- [Feature Engineering and Model Benchmarks](./03_Feature_Engineering_and_Model_Benchmarks)
+- [Model Tuning](./04_Model_Tuning.ipynb)
+- [Production Model](./05_Production_Model.ipynb)
