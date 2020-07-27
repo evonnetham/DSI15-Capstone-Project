@@ -33,19 +33,20 @@ ___Citation:___
 - https://ipropertymanagement.com/research/airbnb-statistics
 
 
-___Citation:___
-- https://news.airbnb.com/about-us/
-- https://news.airbnb.com/fast-facts/
-- https://ipropertymanagement.com/research/airbnb-statistics
-
-
-
 ---
 ### Risks & Assumptions
 
 - The data is not tempered and it accurate in producing a non-commercial derivation to allow public analysis, discussion and community benefit. 
 - Some reviews may be "spam" allowed by Airbnb. Analysis suggests that spam reviews are small and do not affect the statistics.
 - The Airbnb calendar for a listing does not differentiate between a booked night vs an unavailable night, therefore these bookings have been counted as "unavailable". This serves to understate the Availability metric because popular listings will be "booked" rather than being "blacked out" by a host.
+
+---
+### Content
+- [Initial Exploratory Data Analysis and Cleaning](./01_Data_Cleaning_and_EDA.ipynb)
+- [Full Exploratory Data Analysis](./02_Full_EDA.ipynb)
+- [Feature Engineering and Model Benchmarks](./03_Feature_Engineering_and_Model_Benchmarks)
+- [Model Tuning](./04_Model_Tuning.ipynb)
+- [Production Model](./05_Production_Model.ipynb)
 
 ---
 ### Data Source
@@ -80,11 +81,3 @@ Within the country dataset some of the variables are:
 
 
 - `neighbourhood`: Neighbourhood list for geo filter. Sourced from city or open source GIS files.
-
----
-### Content
-- [Initial Exploratory Data Analysis and Cleaning](./01_Data_Cleaning_and_EDA.ipynb)
-- [Full Exploratory Data Analysis](./02_Full_EDA.ipynb)
-- [Feature Engineering and Model Benchmarks](./03_Feature_Engineering_and_Model_Benchmarks)
-- [Model Tuning](./04_Model_Tuning.ipynb)
-- [Production Model](./05_Production_Model.ipynb)
