@@ -34,11 +34,11 @@ ___Citation:___
 
 ---
 ### Content
-- [Initial Exploratory Data Analysis and Cleaning](./01_Data_Cleaning_and_EDA.ipynb)
-- [Full Exploratory Data Analysis](./02_Full_EDA.ipynb)
-- [Feature Engineering and Model Benchmarks](./03_Feature_Engineering_and_Model_Benchmarks)
-- [Model Tuning](./04_Model_Tuning.ipynb)
-- [Production Model](./05_Production_Model.ipynb)
+- [Initial Exploratory Data Analysis and Cleaning](./codes/01_Data_Cleaning_and_EDA.ipynb)
+- [Full Exploratory Data Analysis](./codes/02_Full_EDA.ipynb)
+- [Feature Engineering and Model Benchmarks](./codes/03_Feature_Engineering_and_Model_Benchmarks.ipynb)
+- [Model Tuning](./codes/04_Model_Tuning.ipynb)
+- [Production Model](./codes/05_Production_Model.ipynb)
 
 ---
 ### Risks & Assumptions
