@@ -1,4 +1,4 @@
-# Predicting the Best airbnb Listing Price 
+# Predicting the Airbnb Listing Price 
 
 _Author: Evonne Tham_
 
@@ -27,7 +27,7 @@ Although Airbnb itself has a tool called the Smart Pricing, it generalises way t
 
 In order to solve this problem, the data (detail can be found below) from Toyko, one of the most popular cities for Airbnb booking experiences was utilized. Through cleaning and analysizing, regression models such as Linear Regression, Elastic Net, Support Vector Machine and XGBoost, were built to predict the best price of the listing in Toyko with respect to featurees such as the property or room type, location, amenities etc. Model performance is be guided by R-Square and RMSE, and the model should at least improve upon baseline by 10%, where baseline is defined as the mean of the listing price.
 
-Through data cleaning, Exploratory Data Analysis (EDA), feature engineering and hyperparameter turning, XGBoost was found to be the best model with a $R^2$ score of 0.8 and a $RMSE$ score of 9759.15. In other word, the model account for 80% of the variance in the target variable with an average error of 9759.15¥ in terms of predicting the listing's price. The top features that has the most influence on the price of a listing are Room type - Entire home/apt, minimum night, cleaning fee, the distance away from city center (Tokyo), and how many listing does a hosts has. 
+Through data cleaning, Exploratory Data Analysis (EDA), feature engineering and hyperparameter turning, XGBoost was found to be the best model with a R2 score of 0.8 and a RMSE score of 9759.15. In other word, the model account for 80% of the variance in the target variable with an average error of 9759.15¥ in terms of predicting the listing's price. The top features that has the most influence on the price of a listing are Room type - Entire home/apt, minimum night, cleaning fee, the distance away from city center (Tokyo), and how many listing does a hosts has. 
 
 ___Citation:___
 - https://airhostacademy.com/airbnb-smart-pricing/
