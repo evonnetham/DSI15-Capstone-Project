@@ -36,6 +36,9 @@ ___Citation:___
 - https://ipropertymanagement.com/research/airbnb-statistics
 
 
+##### Tools and Libraries Used:
+python, pandas, numpy, seaborn, matplotlib, scikit-learn, XGBoost, folium, GeoPy
+
 ---
 ## Content
 - [Initial Exploratory Data Analysis and Cleaning](./codes/01_Data_Cleaning_and_EDA.ipynb)
